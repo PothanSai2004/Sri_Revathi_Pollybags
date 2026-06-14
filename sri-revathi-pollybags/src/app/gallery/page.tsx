@@ -95,6 +95,9 @@ export default function GalleryPage() {
                     width={600}
                     height={400}
                     className="w-full h-auto object-cover group-hover:scale-110 transition-transform duration-700"
+                    loading="lazy"
+                    quality={80}
+                    sizes="(max-width: 640px) 100vw, (max-width: 1024px) 50vw, 33vw"
                   />
                   <div className="absolute inset-0 bg-gradient-to-t from-black/60 via-transparent to-transparent opacity-0 group-hover:opacity-100 transition-opacity duration-300">
                     <div className="absolute bottom-0 left-0 right-0 p-4">
@@ -160,6 +163,8 @@ export default function GalleryPage() {
                 width={1200}
                 height={800}
                 className="w-full h-auto max-h-[80vh] object-contain rounded-lg"
+                quality={80}
+                sizes="100vw"
               />
               <div className="text-center mt-4">
                 <p className="text-white text-sm">{filteredItems[lightbox].alt}</p>

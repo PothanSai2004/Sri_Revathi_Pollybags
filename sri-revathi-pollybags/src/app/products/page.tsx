@@ -129,6 +129,9 @@ export default function ProductsPage() {
                   width={600}
                   height={450}
                   className="w-full h-auto object-cover"
+                  loading="lazy"
+                  quality={80}
+                  sizes="(max-width: 1024px) 100vw, 50vw"
                 />
               </div>
             </ScrollReveal>
