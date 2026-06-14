@@ -53,6 +53,9 @@ export default function AboutPage() {
                     width={600}
                     height={450}
                     className="w-full h-auto object-cover"
+                    loading="lazy"
+                    quality={80}
+                    sizes="(max-width: 1024px) 100vw, 50vw"
                   />
                 </div>
                 <div className="absolute -bottom-6 -right-6 md:bottom-6 md:right-6 bg-gradient-to-br from-primary-900 to-primary-800 text-white p-6 rounded-2xl shadow-xl">
@@ -183,6 +186,9 @@ export default function AboutPage() {
                     width={500}
                     height={600}
                     className="w-full h-auto object-cover"
+                    loading="lazy"
+                    quality={80}
+                    sizes="(max-width: 1024px) 100vw, 50vw"
                   />
                 </div>
               </div>
@@ -243,6 +249,9 @@ export default function AboutPage() {
                   width={600}
                   height={450}
                   className="w-full h-auto object-cover"
+                  loading="lazy"
+                  quality={80}
+                  sizes="(max-width: 1024px) 100vw, 50vw"
                 />
               </div>
             </ScrollReveal>
@@ -300,6 +309,9 @@ export default function AboutPage() {
                   width={600}
                   height={450}
                   className="w-full h-auto object-cover"
+                  loading="lazy"
+                  quality={80}
+                  sizes="(max-width: 1024px) 100vw, 50vw"
                 />
               </div>
             </ScrollReveal>

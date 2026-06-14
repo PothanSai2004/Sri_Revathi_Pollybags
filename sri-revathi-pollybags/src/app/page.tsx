@@ -100,9 +100,10 @@ export default function HomePage() {
             fill
             className="object-cover"
             priority
-            quality={90}
+            quality={80}
+            sizes="100vw"
           />
-          <div className="absolute inset-0 bg-gradient-to-b from-primary-950/80 via-primary-950/60 to-primary-950/90" />
+          <div className="absolute inset-0 bg-gradient-to-b from-primary-950/90 via-primary-950/80 to-primary-950/95" />
         </div>
 
         {/* Animated Background Elements */}
@@ -236,6 +237,9 @@ export default function HomePage() {
                     width={600}
                     height={450}
                     className="w-full h-auto object-cover"
+                    loading="lazy"
+                    quality={80}
+                    sizes="(max-width: 1024px) 100vw, 50vw"
                   />
                 </div>
                 {/* Experience Badge */}
@@ -435,6 +439,9 @@ export default function HomePage() {
                     width={600}
                     height={450}
                     className="w-full h-auto object-cover"
+                    loading="lazy"
+                    quality={80}
+                    sizes="(max-width: 1024px) 100vw, 50vw"
                   />
                 </div>
                 <div className="absolute -bottom-4 -left-4 md:bottom-6 md:left-6 bg-white p-4 rounded-xl shadow-lg border border-neutral-100">
